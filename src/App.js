@@ -10,7 +10,8 @@ export class App extends Component {
       <BrowserRouter>
       <Routes>
          {/* when we use Routes than Route */}
-      <Route path="/" element={<HomePage />} />
+         <Route path="/" element={<HomePage />} />
+      <Route path="/newsapp1" element={<HomePage />} />
       <Route path="/Contact" element={<Contact />} />
       <Route path="*" element={<ErrorPage />} />
         {/* when we use Switch than Route */}
